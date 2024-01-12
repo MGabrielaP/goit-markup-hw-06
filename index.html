@@ -481,37 +481,39 @@
     <!-- Modal window -->
     <div class="modal is-hidden" data-modal>
       <div class="modal-window" data-modal-open>
+        <div>
         <button type="button" class="modal-button" data-modal-close>
           <svg width="8" height="8" class="modal-button-close">
             <use href="./images/icons.svg#close-button" />
           </svg>
         </button>
-        <section>
-          <h4 class="form-modal-title">Leave your contacts and we will call you back</h4>
+      </div>
+          <p class="form-modal-title">Leave your contacts and we will call you back</p>
           <form action="" autocomplete="off" class="form-modal">
-            <div >
-              <div class="form-modal-entries">
-                <label for="user-name">Name</label>
-                <input class="input" type="text" name="user-name">
-              </div>
-              <div class="form-modal-entries">
-                <label for="user-phone">Phone</label>
-                <input class="input"  type="phone" name="phone" id="user-phone">
-              </div>
-              <div class="form-modal-entries">
-                <label for="user-email">Email</label>
-                <input class="input" type="email" name="email" id="user-email">
-              </div>
-              <div class="form-modal-entries">
+            <div class="form-modal-entries">
+             
+                <label for="user-name" class="form-entry">Name</label>
+                <div class="modal-entry-icon">
+                  <input id="user-name" class="form-entry-field" type="text">
+                </div>
                 
-                <label for="user-comment" class="input">Comment</label>
-                <textarea name="comment" id="user-comment" rows="10"></textarea>
+              
+             
+                <label for="user-phone" class="form-entry">Phone</label>
+                <input class="form-entry-field"  type="phone" name="phone" id="user-phone">
+             
+            
+                <label for="user-email" class="form-entry">Email</label>
+                <input class="form-entry-field" type="email" name="email" id="user-email">
+             
+              
+                
+                <label for="user-comment" class="form-entry">Comment</label>
+                <textarea name="comment" id="user-comment" rows="10" class="form-entry-field"></textarea>
                 <button type="submit" placeholder="Text input"  class="hero-button">Send</button>
-              </div>
+             
             </div>
           </form>
-        </section>
-        
       </div>
     </div>
     <script src="./modal.js"></script>
