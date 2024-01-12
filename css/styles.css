@@ -719,3 +719,40 @@ transition: transform 250ms cubic-bezier(0.4, 0,0.2, 1);
 .customer-logo:focus {
   fill: #404bbf;
 }
+
+.form-modal-title{
+  padding: 72px 24px 16px 24px;
+  color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.32px;
+}
+
+.form-modal{
+  display: flex;
+width: 360px;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+border-radius: 4px;
+padding-left:24px;
+}
+
+.form-modal-entries{
+  width: 360px;
+height: 58px;
+flex-shrink: 0;
+}
+
+.input{
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  align-items: flex-start;
+  display: flex;
+  width: 360px;
+}
