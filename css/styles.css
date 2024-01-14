@@ -894,15 +894,6 @@ letter-spacing: 0.48px;
   align-items: center;
   justify-content:center;
   fill: transparent;
-
-  /* color: var(--IRIS, #4D5AE5);
-font-family: Roboto;
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-line-height: 16px;
-letter-spacing: 0.48px;
-text-decoration-line: underline; */
 }
 
 .privacy-policy-link{
@@ -913,7 +904,7 @@ text-decoration-line: underline; */
   
 }
 
-modal-button-send{
+.modal-button-send{
   display: block;
   min-width: 169px;
   height:56px;
