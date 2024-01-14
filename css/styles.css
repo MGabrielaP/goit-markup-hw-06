@@ -800,8 +800,9 @@ border-radius: 4px;
 padding-left:24px;
 }
 
-.form-modal-entries{
-margin-bottom: 8px;
+.form-modal-entry{
+position: relative;
+/* margin-bottom: 16px; */
 }
 
 .form-entry{
@@ -813,9 +814,9 @@ display: block;
 margin-bottom: 4px;
 }
 
-.modal-entry-icon{
-position: relative;
-margin-bottom: 16px;
+.modal-entry{
+  margin-bottom: 8px;
+
 }
 
 .form-entry-field{

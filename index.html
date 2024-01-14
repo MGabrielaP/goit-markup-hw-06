@@ -495,51 +495,57 @@
     <!-- Modal window -->
     <div class="modal is-hidden" data-modal>
       <div class="modal-window" data-modal-open>
+        <!-- 1st Child Modal Window -->
         <div>
-        <button type="button" class="modal-button" data-modal-close>
-          <svg width="8" height="8" class="modal-button-close">
-            <use href="./images/icons.svg#close" />
-          </svg>
-        </button>
-      </div>
-      <p class="form-modal-title">Leave your contacts and we will call you back</p>
+          <button type="button" class="modal-button" data-modal-close>
+            <svg width="8" height="8" class="modal-button-close">
+              <use href="./images/icons.svg#close" />
+            </svg>
+          </button>
+        </div>
+
+        <!-- 2nd Child Modal Window -->
+        <p class="form-modal-title">Leave your contacts and we will call you back</p>
           
-<!-- <form action="" autocomplete="off" class="form-modal">
-            <div class="form-modal-entries"> -->
-              
-                <div class="modal-entry-icon">
-                  <label for="user-name" class="form-entry">Name</label>
-                  <input id="user-name" name="user-name"  class="form-entry-field" type="text">
-                  <svg width="18" height="24" class="modal-svg">
-                    <use href="./images/icons.svg#modal-person-black" />
-                  </svg>
-                </div>
-
-                <div class="modal-entry-icon">
-                  <label for="user-phone" class="form-entry">Phone</label>
-                  <input id="user-phone" name="user-phone"  class="form-entry-field" type="text">
-                  <svg width="18" height="24" class="modal-svg">
-                    <use href="./images/icons.svg#modal-phone-black" />
-                  </svg>
-                </div>
-            
-                <div class="modal-entry-icon">
-                  <label for="user-email" class="form-entry">Email</label>
-                  <input id="user-email" name="user-email"  class="form-entry-field" type="text">
-                  <svg width="18" height="24" class="modal-svg">
-                    <use href="./images/icons.svg#modal-email-black" />
-                  </svg>
-                </div>
-
-                <div class="modal-entry-icon">
-                  <label for="user-comment" class="form-entry">Comment</label>
-                <textarea name="comment" id="user-comment" rows="10" class="form-entry-comment"></textarea>
-                <button type="submit" placeholder="Text input"  class="hero-button">Send</button>
-                </div>
+        <!-- 3rd Child Modal Window -->
+          <form action="" autocomplete="off" class="form-modal">
                 
-                
-             
+            <div class="form-modal-entry">
+              <label for="user-name" class="form-entry">Name</label>
+              <div class="form-modal-entries">
+                <input id="user-name" name="user-name"  class="form-entry-field" type="text">
+                <svg width="18" height="24" class="modal-svg">
+                <use href="./images/icons.svg#modal-person-black" />
+                </svg>
+              </div> 
             </div>
+
+            <div class="form-modal-entry">
+              <label for="user-phone" class="form-entry">Phone</label>
+              <div class="form-modal-entries">
+                <input id="user-phone" name="user-phone"  class="form-entry-field" type="text">
+                <svg width="18" height="24" class="modal-svg">
+                <use href="./images/icons.svg#modal-phone-black" />
+                </svg>
+              </div>
+            </div>
+                
+            <div class="form-modal-entry">
+              <label for="user-email" class="form-entry">Email</label>
+              <div class="form-modal-entries">
+                <input id="user-email" name="user-email"  class="form-entry-field" type="text">
+                <svg width="18" height="24" class="modal-svg">
+                <use href="./images/icons.svg#modal-email-black" />
+                </svg>
+              </div>
+            </div>
+
+            <div class="form-modal-entry">
+              <label for="user-comment" class="form-entry">Comment</label>
+            <textarea name="comment" id="user-comment" rows="10" class="form-entry-comment"></textarea>
+            <button type="submit" placeholder="Text input"  class="hero-button">Send</button>
+            </div>
+          
           </form>
       </div>
     </div>
