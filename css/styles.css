@@ -726,6 +726,7 @@ transition: transform 250ms cubic-bezier(0.4, 0,0.2, 1);
 background-color: var(--logo-titles-color);
 display: flex;
 margin-bottom: 16px;
+gap: 24px;
 }
 
 .footer-label{
@@ -749,7 +750,7 @@ gap:24px;
 display: flex;
 justify-content: center;
 align-items: center;
-font-family: Roboto;
+font-family: "Roboto";
 font-size: 16px;
 font-weight: 500;
 line-height: 1.50;
@@ -801,9 +802,13 @@ padding-left:24px;
 }
 
 .form-modal-entry{
-position: relative;
-width: 100%;
-margin-bottom: 16px;
+/* position: relative;
+width: 100%; */
+margin-bottom: 8px;
+}
+
+.form-modal-entries{
+  position: relative;
 }
 
 .form-entry{
@@ -817,7 +822,6 @@ margin-bottom: 4px;
 
 .modal-entry{
   margin-bottom: 8px;
-
 }
 
 .form-entry-field{
@@ -828,22 +832,21 @@ border-radius: 4px;
 background-color:transparent;
 padding-left: 38px;
 outline:transparent;
-transition: border-color 250ms cubic-bezier(0.4, 0, 0, 0.2, 1);
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-entry-field:hover{
+.form-entry-field:focus{
   border-color: #4D5AE5;
 }
 .modal-svg{
-  position: absolute;
-  left: 16px;
-  top:50%;
-/* transform: translateY(-50%); */
+position: absolute;
+left: 16px;
+top:50%;
+transform: translateY(-50%);
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-                
-.modal-svg: :hover{
+          
+.modal-svg:focus{
 fill:#4d5ae5;
 }
 
@@ -870,9 +873,6 @@ border-color: #4D5AE5;
   margin-bottom: 24px;
 
 }
-.form-checkbox{
-
-}
 
 .form-checkbox-text{
   color: var(--customer-color);
@@ -882,6 +882,7 @@ font-size: 12px;
 /* font-weight: 400; */
 line-height: 1.17;
 letter-spacing: 0.48px;
+display: block;
 }
 
 .privacy-policy{
@@ -889,7 +890,7 @@ letter-spacing: 0.48px;
   height:16px;
   border:1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  transition: background-colour 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-colour 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
   align-items: center;
   justify-content:center;
