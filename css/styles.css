@@ -750,7 +750,7 @@ gap:24px;
 display: flex;
 justify-content: center;
 align-items: center;
-font-family: "Roboto";
+font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.50;
@@ -802,8 +802,8 @@ padding-left:24px;
 }
 
 .form-modal-entry{
-/* position: relative;
-width: 100%; */
+position: relative;
+width: 100%;
 margin-bottom: 8px;
 }
 
@@ -871,7 +871,12 @@ border-color: #4D5AE5;
 }
 .modal-check-box{
   margin-bottom: 24px;
+}
 
+.form-checkbox:checked + .privacy-policy:first-child{
+background-color: #404bbf;
+border: none;
+fill: #f4f4fd;
 }
 
 .form-checkbox-text{
