@@ -873,7 +873,7 @@ border-color: #4D5AE5;
   margin-bottom: 24px;
 }
 
-.form-checkbox:checked + .privacy-policy:first-child{
+.input:checked + .form-checkbox-text span:first-child{
 background-color: #404bbf;
 border: none;
 fill: #f4f4fd;
