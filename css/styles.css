@@ -803,8 +803,14 @@ padding-left:24px;
 .form-modal-entry{
 position: relative;
 width: 100%;
-margin-bottom: 16px;
+margin-bottom: 8px;
 }
+
+.form-modal-entry{
+  position: relative;
+  width: 100%;
+  margin-bottom: 16px;
+  }
 
 .form-modal-entries{
   position: relative;
